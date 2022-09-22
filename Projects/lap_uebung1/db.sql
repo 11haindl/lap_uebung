@@ -1,5 +1,5 @@
 CREATE DATABASE  lap_uebung;
-CREATE USER 'tecadmin'@'localhost' IDENTIFIED BY 'Q^jtvXrRTbah)8FN';
+CREATE USER 'lapuser'@'localhost' IDENTIFIED BY 'Q^jtvXrRTbah)8FN';
 GRANT ALL ON lap_uebung.* TO 'lapuser'@'localhost';
 FLUSH PRIVILEGES;
 
